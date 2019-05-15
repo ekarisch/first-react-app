@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,11 +17,105 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no-margin {
+    margin: 0px!important;
+}
+.mb-2 {
+  margin-bottom: 15px;
+}
+.mt-2 {
+  margin-top: 15px;
+}
+.no-padding {
+  padding: 0px!important;
+}
+
+.btn {
+  margin-left: 5px;
+  padding: 8px 15px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid silver;
+}
+
+.btn-default {
+  background-color: silver!important;
+}
+
+.btn-primary {
+  background-color: skyblue!important;
+}
+.btn-warning {
+  background-color: #FF5733!important;
+}
+.row-item {
+  background-color: silver;
+  text-align: left;
+  padding: 10px 5px;
+  border-bottom: 1px solid black;
+}
+.row-item:last-of-type {
+  border-bottom: none;
+}
+.page {
+  margin: 20px;
+}
+
+.interactions {
+  text-align: center;
+}
+
+.table {
+  margin: 20px 0;
+}
+
+.table-header {
+  display: flex;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.table-empty {
+  margin: 200px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.table-row {
+  display: flex;
+  line-height: 24px;
+  white-space: nowrap;
+  margin: 10px 0;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+
+.table-header > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+.table-row > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:table-cell
+}
+
+.button-inline {
+
+
+  color: inherit;
+  text-align: inherit;
+  -webkit-font-smoothing: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.button-active {
+  border-radius: 0;
+  border-bottom: 1px solid #38BB6C;
 }
